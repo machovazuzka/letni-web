@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+  .menu {
+    display: none;
+  }
+  #check:checked + label {
+    background-color: green;
+  }
+  #check:checked ~ .menu{
+    display: block;
+  }
+  #check {
+    display: none;
+  }
+</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <title>Document</title>
+<body>
+  <div>
+    <input type="checkbox" id="check">
+    <label for="check">menu</label>
+  </div>
+<div class="menu">
+  <ul>
+    <li>hao</li>
+    <li>asda</li>
+    <li>ada</li>
+  </ul>
+
+</div>
+
+</body>
+</html>
